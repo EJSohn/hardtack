@@ -17,6 +17,6 @@ target 'GunpangAndByelsatang' do
   target 'GunpangAndByelsatangUITests' do
     inherit! :search_paths
     # Pods for testing
-  end
+  endg
 
 end
