@@ -7,6 +7,7 @@ target 'GunpangAndByelsatang' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
   # Pods for GunpangAndByelsatang
 
   target 'GunpangAndByelsatangTests' do
@@ -17,6 +18,6 @@ target 'GunpangAndByelsatang' do
   target 'GunpangAndByelsatangUITests' do
     inherit! :search_paths
     # Pods for testing
-  endg
+  end
 
 end
