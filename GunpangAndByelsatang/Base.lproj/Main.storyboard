@@ -30,16 +30,25 @@
                                     <constraint firstAttribute="height" constant="40" id="Ym8-ec-1QI"/>
                                 </constraints>
                                 <state key="normal" title="카카오로 로그인하기"/>
+                                <connections>
+                                    <action selector="didPressKakaoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZq-b9-fCF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6J4-iN-fT3">
                                 <rect key="frame" x="46" y="422" width="283" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="페이스북으로 로그인하기"/>
+                                <connections>
+                                    <action selector="didPressFacebookBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9R-Gg-72i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYH-0v-b7U">
                                 <rect key="frame" x="46" y="487" width="283" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="구글로 로그인하기"/>
+                                <connections>
+                                    <action selector="didPressGoogleBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j27-ay-rQt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,6 +69,11 @@
                             <constraint firstItem="8cl-NH-iW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="s3f-3N-ejN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="facebookLoginBtn" destination="6J4-iN-fT3" id="JZ4-bf-Xlp"/>
+                        <outlet property="googleLoginBtn" destination="lYH-0v-b7U" id="akX-Ve-3sE"/>
+                        <outlet property="kakaoLoginBtn" destination="8cl-NH-iW8" id="xIP-tc-Lyf"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-58.399999999999999" y="-197.45127436281859"/>
