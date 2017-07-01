@@ -8,6 +8,7 @@ target 'GunpangAndByelsatang' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
+  pod 'SwiftyBeaver'
   # Pods for GunpangAndByelsatang
 
   target 'GunpangAndByelsatangTests' do
