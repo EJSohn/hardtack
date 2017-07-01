@@ -11,6 +11,7 @@
 		4584129D1F07FA770031F12A /* CommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584129C1F07FA770031F12A /* CommonColor.swift */; };
 		458412A81F0805B30031F12A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412A71F0805B30031F12A /* LoginViewController.swift */; };
 		458412AA1F08072D0031F12A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412A91F08072D0031F12A /* AuthManager.swift */; };
+		458412AE1F080ACA0031F12A /* AuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412AD1F080ACA0031F12A /* AuthDelegate.swift */; };
 		45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2131EF905E800276F5E /* AppDelegate.swift */; };
 		45CAA2161EF905E800276F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2151EF905E800276F5E /* ViewController.swift */; };
 		45CAA2191EF905E800276F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA2171EF905E800276F5E /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		4584129C1F07FA770031F12A /* CommonColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
 		458412A71F0805B30031F12A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		458412A91F08072D0031F12A /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		458412AD1F080ACA0031F12A /* AuthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthDelegate.swift; sourceTree = "<group>"; };
 		45CAA2101EF905E800276F5E /* GunpangAndByelsatang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunpangAndByelsatang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CAA2131EF905E800276F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CAA2151EF905E800276F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		4584129E1F0802D50031F12A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				458412AB1F080AA90031F12A /* New Group */,
 				4584129F1F0802DF0031F12A /* Authentication */,
 			);
 			name = App;
@@ -167,6 +170,22 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
+		458412AB1F080AA90031F12A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		458412AC1F080AB00031F12A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				45CAA2131EF905E800276F5E /* AppDelegate.swift */,
+				458412AD1F080ACA0031F12A /* AuthDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		45CAA2071EF905E800276F5E = {
 			isa = PBXGroup;
 			children = (
@@ -192,13 +211,13 @@
 		45CAA2121EF905E800276F5E /* GunpangAndByelsatang */ = {
 			isa = PBXGroup;
 			children = (
+				458412AC1F080AB00031F12A /* AppDelegate */,
 				458412A61F0804580031F12A /* Storyboards */,
 				4584129E1F0802D50031F12A /* App */,
 				4584129B1F07F80D0031F12A /* Managers */,
 				4584129A1F07F8050031F12A /* Extensions */,
 				458412991F07F7F60031F12A /* Commons */,
 				45CAA2411EF9064D00276F5E /* GoogleService-Info.plist */,
-				45CAA2131EF905E800276F5E /* AppDelegate.swift */,
 				45CAA2171EF905E800276F5E /* Main.storyboard */,
 				45CAA2151EF905E800276F5E /* ViewController.swift */,
 				45CAA21A1EF905E800276F5E /* Assets.xcassets */,
@@ -536,6 +555,7 @@
 			files = (
 				458412A81F0805B30031F12A /* LoginViewController.swift in Sources */,
 				45CAA2161EF905E800276F5E /* ViewController.swift in Sources */,
+				458412AE1F080ACA0031F12A /* AuthDelegate.swift in Sources */,
 				4584129D1F07FA770031F12A /* CommonColor.swift in Sources */,
 				45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */,
 				458412AA1F08072D0031F12A /* AuthManager.swift in Sources */,
