@@ -115,6 +115,52 @@
 			name = Managers;
 			sourceTree = "<group>";
 		};
+		4584129E1F0802D50031F12A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4584129F1F0802DF0031F12A /* Authentication */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		4584129F1F0802DF0031F12A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				458412A21F0802F70031F12A /* Model */,
+				458412A11F0802F00031F12A /* ViewModel */,
+				458412A01F0802E90031F12A /* View */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		458412A01F0802E90031F12A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		458412A11F0802F00031F12A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		458412A21F0802F70031F12A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		458412A61F0804580031F12A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		45CAA2071EF905E800276F5E = {
 			isa = PBXGroup;
 			children = (
@@ -140,13 +186,15 @@
 		45CAA2121EF905E800276F5E /* GunpangAndByelsatang */ = {
 			isa = PBXGroup;
 			children = (
+				458412A61F0804580031F12A /* Storyboards */,
+				4584129E1F0802D50031F12A /* App */,
 				4584129B1F07F80D0031F12A /* Managers */,
 				4584129A1F07F8050031F12A /* Extensions */,
 				458412991F07F7F60031F12A /* Commons */,
 				45CAA2411EF9064D00276F5E /* GoogleService-Info.plist */,
 				45CAA2131EF905E800276F5E /* AppDelegate.swift */,
-				45CAA2151EF905E800276F5E /* ViewController.swift */,
 				45CAA2171EF905E800276F5E /* Main.storyboard */,
+				45CAA2151EF905E800276F5E /* ViewController.swift */,
 				45CAA21A1EF905E800276F5E /* Assets.xcassets */,
 				45CAA21C1EF905E800276F5E /* LaunchScreen.storyboard */,
 				45CAA21F1EF905E800276F5E /* Info.plist */,
