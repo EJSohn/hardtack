@@ -1,0 +1,6 @@
+framework module Pods_GunpangAndByelsatang {
+  umbrella header "Pods-GunpangAndByelsatang-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251670A940B227B6558D371F /* Pods_GunpangAndByelsatangTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C90E61ED352FF5DD8B220A /* Pods_GunpangAndByelsatangTests.framework */; };
+		45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2131EF905E800276F5E /* AppDelegate.swift */; };
+		45CAA2161EF905E800276F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2151EF905E800276F5E /* ViewController.swift */; };
+		45CAA2191EF905E800276F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA2171EF905E800276F5E /* Main.storyboard */; };
+		45CAA21B1EF905E800276F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA21A1EF905E800276F5E /* Assets.xcassets */; };
+		45CAA21E1EF905E800276F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA21C1EF905E800276F5E /* LaunchScreen.storyboard */; };
+		45CAA2291EF905E900276F5E /* GunpangAndByelsatangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2281EF905E900276F5E /* GunpangAndByelsatangTests.swift */; };
+		45CAA2341EF905E900276F5E /* GunpangAndByelsatangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2331EF905E900276F5E /* GunpangAndByelsatangUITests.swift */; };
+		45CAA2421EF9064D00276F5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA2411EF9064D00276F5E /* GoogleService-Info.plist */; };
+		B429F9CC04C88D4A5D5DE328 /* Pods_GunpangAndByelsatang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DD68D7991B7E69D6D75F4A /* Pods_GunpangAndByelsatang.framework */; };
+		FA2AA8434799D313C17B7A17 /* Pods_GunpangAndByelsatangUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DA6C786CA03AC33E2BC9DE /* Pods_GunpangAndByelsatangUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CAA2251EF905E800276F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CAA2081EF905E800276F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CAA20F1EF905E800276F5E;
+			remoteInfo = GunpangAndByelsatang;
+		};
+		45CAA2301EF905E900276F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CAA2081EF905E800276F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CAA20F1EF905E800276F5E;
+			remoteInfo = GunpangAndByelsatang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BB36F3E29627AB45D3376F /* Pods-GunpangAndByelsatangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunpangAndByelsatangUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GunpangAndByelsatangUITests/Pods-GunpangAndByelsatangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25C90E61ED352FF5DD8B220A /* Pods_GunpangAndByelsatangTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GunpangAndByelsatangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CAA2101EF905E800276F5E /* GunpangAndByelsatang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunpangAndByelsatang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CAA2131EF905E800276F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45CAA2151EF905E800276F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45CAA2181EF905E800276F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45CAA21A1EF905E800276F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45CAA21D1EF905E800276F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45CAA21F1EF905E800276F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CAA2241EF905E800276F5E /* GunpangAndByelsatangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunpangAndByelsatangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CAA2281EF905E900276F5E /* GunpangAndByelsatangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunpangAndByelsatangTests.swift; sourceTree = "<group>"; };
+		45CAA22A1EF905E900276F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CAA22F1EF905E900276F5E /* GunpangAndByelsatangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunpangAndByelsatangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CAA2331EF905E900276F5E /* GunpangAndByelsatangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunpangAndByelsatangUITests.swift; sourceTree = "<group>"; };
+		45CAA2351EF905E900276F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CAA2411EF9064D00276F5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4ECF8388A61383FDBBD010A3 /* Pods-GunpangAndByelsatang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunpangAndByelsatang.release.xcconfig"; path = "Pods/Target Support Files/Pods-GunpangAndByelsatang/Pods-GunpangAndByelsatang.release.xcconfig"; sourceTree = "<group>"; };
+		51DD68D7991B7E69D6D75F4A /* Pods_GunpangAndByelsatang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GunpangAndByelsatang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65276D0AE0E3A6D3B25DDFB0 /* Pods-GunpangAndByelsatang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunpangAndByelsatang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GunpangAndByelsatang/Pods-GunpangAndByelsatang.debug.xcconfig"; sourceTree = "<group>"; };
+		A8DA6C786CA03AC33E2BC9DE /* Pods_GunpangAndByelsatangUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GunpangAndByelsatangUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99953C126E6F3303CC28E25 /* Pods-GunpangAndByelsatangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunpangAndByelsatangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GunpangAndByelsatangTests/Pods-GunpangAndByelsatangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF814C3425C3992CD14BECAB /* Pods-GunpangAndByelsatangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunpangAndByelsatangUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GunpangAndByelsatangUITests/Pods-GunpangAndByelsatangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9DFB1283FE41584B282E65B /* Pods-GunpangAndByelsatangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunpangAndByelsatangTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GunpangAndByelsatangTests/Pods-GunpangAndByelsatangTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CAA20D1EF905E800276F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429F9CC04C88D4A5D5DE328 /* Pods_GunpangAndByelsatang.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CAA2211EF905E800276F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251670A940B227B6558D371F /* Pods_GunpangAndByelsatangTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CAA22C1EF905E900276F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2AA8434799D313C17B7A17 /* Pods_GunpangAndByelsatangUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458412991F07F7F60031F12A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		4584129A1F07F8050031F12A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4584129B1F07F80D0031F12A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		45CAA2071EF905E800276F5E = {
+			isa = PBXGroup;
+			children = (
+				45CAA2121EF905E800276F5E /* GunpangAndByelsatang */,
+				45CAA2271EF905E900276F5E /* GunpangAndByelsatangTests */,
+				45CAA2321EF905E900276F5E /* GunpangAndByelsatangUITests */,
+				45CAA2111EF905E800276F5E /* Products */,
+				BEB5D189BCEC30F7A6C7050F /* Pods */,
+				87536062FAD9DD5CDB8454A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45CAA2111EF905E800276F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CAA2101EF905E800276F5E /* GunpangAndByelsatang.app */,
+				45CAA2241EF905E800276F5E /* GunpangAndByelsatangTests.xctest */,
+				45CAA22F1EF905E900276F5E /* GunpangAndByelsatangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CAA2121EF905E800276F5E /* GunpangAndByelsatang */ = {
+			isa = PBXGroup;
+			children = (
+				4584129B1F07F80D0031F12A /* Managers */,
+				4584129A1F07F8050031F12A /* Extensions */,
+				458412991F07F7F60031F12A /* Commons */,
+				45CAA2411EF9064D00276F5E /* GoogleService-Info.plist */,
+				45CAA2131EF905E800276F5E /* AppDelegate.swift */,
+				45CAA2151EF905E800276F5E /* ViewController.swift */,
+				45CAA2171EF905E800276F5E /* Main.storyboard */,
+				45CAA21A1EF905E800276F5E /* Assets.xcassets */,
+				45CAA21C1EF905E800276F5E /* LaunchScreen.storyboard */,
+				45CAA21F1EF905E800276F5E /* Info.plist */,
+			);
+			path = GunpangAndByelsatang;
+			sourceTree = "<group>";
+		};
+		45CAA2271EF905E900276F5E /* GunpangAndByelsatangTests */ = {
+			isa = PBXGroup;
+			children = (
+				45CAA2281EF905E900276F5E /* GunpangAndByelsatangTests.swift */,
+				45CAA22A1EF905E900276F5E /* Info.plist */,
+			);
+			path = GunpangAndByelsatangTests;
+			sourceTree = "<group>";
+		};
+		45CAA2321EF905E900276F5E /* GunpangAndByelsatangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45CAA2331EF905E900276F5E /* GunpangAndByelsatangUITests.swift */,
+				45CAA2351EF905E900276F5E /* Info.plist */,
+			);
+			path = GunpangAndByelsatangUITests;
+			sourceTree = "<group>";
+		};
+		87536062FAD9DD5CDB8454A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51DD68D7991B7E69D6D75F4A /* Pods_GunpangAndByelsatang.framework */,
+				25C90E61ED352FF5DD8B220A /* Pods_GunpangAndByelsatangTests.framework */,
+				A8DA6C786CA03AC33E2BC9DE /* Pods_GunpangAndByelsatangUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEB5D189BCEC30F7A6C7050F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65276D0AE0E3A6D3B25DDFB0 /* Pods-GunpangAndByelsatang.debug.xcconfig */,
+				4ECF8388A61383FDBBD010A3 /* Pods-GunpangAndByelsatang.release.xcconfig */,
+				A99953C126E6F3303CC28E25 /* Pods-GunpangAndByelsatangTests.debug.xcconfig */,
+				C9DFB1283FE41584B282E65B /* Pods-GunpangAndByelsatangTests.release.xcconfig */,
+				00BB36F3E29627AB45D3376F /* Pods-GunpangAndByelsatangUITests.debug.xcconfig */,
+				AF814C3425C3992CD14BECAB /* Pods-GunpangAndByelsatangUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CAA20F1EF905E800276F5E /* GunpangAndByelsatang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CAA2381EF905E900276F5E /* Build configuration list for PBXNativeTarget "GunpangAndByelsatang" */;
+			buildPhases = (
+				D3B5CAF9F89C2DEBA65AF879 /* [CP] Check Pods Manifest.lock */,
+				45CAA20C1EF905E800276F5E /* Sources */,
+				45CAA20D1EF905E800276F5E /* Frameworks */,
+				45CAA20E1EF905E800276F5E /* Resources */,
+				A610D2EA7E6598371806452F /* [CP] Embed Pods Frameworks */,
+				E1C0BBCDA4C51F5960D0BF69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GunpangAndByelsatang;
+			productName = GunpangAndByelsatang;
+			productReference = 45CAA2101EF905E800276F5E /* GunpangAndByelsatang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45CAA2231EF905E800276F5E /* GunpangAndByelsatangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CAA23B1EF905E900276F5E /* Build configuration list for PBXNativeTarget "GunpangAndByelsatangTests" */;
+			buildPhases = (
+				5E8669FD45D30783F8FC2916 /* [CP] Check Pods Manifest.lock */,
+				45CAA2201EF905E800276F5E /* Sources */,
+				45CAA2211EF905E800276F5E /* Frameworks */,
+				45CAA2221EF905E800276F5E /* Resources */,
+				4694E571D2D1BE7C42DD6612 /* [CP] Embed Pods Frameworks */,
+				626C7ABC6501C0729D57CB1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CAA2261EF905E800276F5E /* PBXTargetDependency */,
+			);
+			name = GunpangAndByelsatangTests;
+			productName = GunpangAndByelsatangTests;
+			productReference = 45CAA2241EF905E800276F5E /* GunpangAndByelsatangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45CAA22E1EF905E900276F5E /* GunpangAndByelsatangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CAA23E1EF905E900276F5E /* Build configuration list for PBXNativeTarget "GunpangAndByelsatangUITests" */;
+			buildPhases = (
+				FF0CC1BAEEBB8BBAF1AB955C /* [CP] Check Pods Manifest.lock */,
+				45CAA22B1EF905E900276F5E /* Sources */,
+				45CAA22C1EF905E900276F5E /* Frameworks */,
+				45CAA22D1EF905E900276F5E /* Resources */,
+				A5DDC3776009E03FFD2101C6 /* [CP] Embed Pods Frameworks */,
+				432FA6C89AF54B60DC22B6CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CAA2311EF905E900276F5E /* PBXTargetDependency */,
+			);
+			name = GunpangAndByelsatangUITests;
+			productName = GunpangAndByelsatangUITests;
+			productReference = 45CAA22F1EF905E900276F5E /* GunpangAndByelsatangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CAA2081EF905E800276F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ejsohn;
+				TargetAttributes = {
+					45CAA20F1EF905E800276F5E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5NNEWJM58C;
+						ProvisioningStyle = Automatic;
+					};
+					45CAA2231EF905E800276F5E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 286488CS76;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45CAA20F1EF905E800276F5E;
+					};
+					45CAA22E1EF905E900276F5E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 286488CS76;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45CAA20F1EF905E800276F5E;
+					};
+				};
+			};
+			buildConfigurationList = 45CAA20B1EF905E800276F5E /* Build configuration list for PBXProject "GunpangAndByelsatang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45CAA2071EF905E800276F5E;
+			productRefGroup = 45CAA2111EF905E800276F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CAA20F1EF905E800276F5E /* GunpangAndByelsatang */,
+				45CAA2231EF905E800276F5E /* GunpangAndByelsatangTests */,
+				45CAA22E1EF905E900276F5E /* GunpangAndByelsatangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CAA20E1EF905E800276F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAA21E1EF905E800276F5E /* LaunchScreen.storyboard in Resources */,
+				45CAA2421EF9064D00276F5E /* GoogleService-Info.plist in Resources */,
+				45CAA21B1EF905E800276F5E /* Assets.xcassets in Resources */,
+				45CAA2191EF905E800276F5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CAA2221EF905E800276F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CAA22D1EF905E900276F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432FA6C89AF54B60DC22B6CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GunpangAndByelsatangUITests/Pods-GunpangAndByelsatangUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4694E571D2D1BE7C42DD6612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GunpangAndByelsatangTests/Pods-GunpangAndByelsatangTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8669FD45D30783F8FC2916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		626C7ABC6501C0729D57CB1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GunpangAndByelsatangTests/Pods-GunpangAndByelsatangTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5DDC3776009E03FFD2101C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GunpangAndByelsatangUITests/Pods-GunpangAndByelsatangUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A610D2EA7E6598371806452F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GunpangAndByelsatang/Pods-GunpangAndByelsatang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B5CAF9F89C2DEBA65AF879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C0BBCDA4C51F5960D0BF69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GunpangAndByelsatang/Pods-GunpangAndByelsatang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0CC1BAEEBB8BBAF1AB955C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CAA20C1EF905E800276F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAA2161EF905E800276F5E /* ViewController.swift in Sources */,
+				45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CAA2201EF905E800276F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAA2291EF905E900276F5E /* GunpangAndByelsatangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CAA22B1EF905E900276F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAA2341EF905E900276F5E /* GunpangAndByelsatangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45CAA2261EF905E800276F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CAA20F1EF905E800276F5E /* GunpangAndByelsatang */;
+			targetProxy = 45CAA2251EF905E800276F5E /* PBXContainerItemProxy */;
+		};
+		45CAA2311EF905E900276F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CAA20F1EF905E800276F5E /* GunpangAndByelsatang */;
+			targetProxy = 45CAA2301EF905E900276F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45CAA2171EF905E800276F5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CAA2181EF905E800276F5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45CAA21C1EF905E800276F5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CAA21D1EF905E800276F5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45CAA2361EF905E900276F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45CAA2371EF905E900276F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CAA2391EF905E900276F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65276D0AE0E3A6D3B25DDFB0 /* Pods-GunpangAndByelsatang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NNEWJM58C;
+				INFOPLIST_FILE = GunpangAndByelsatang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45CAA23A1EF905E900276F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECF8388A61383FDBBD010A3 /* Pods-GunpangAndByelsatang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NNEWJM58C;
+				INFOPLIST_FILE = GunpangAndByelsatang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45CAA23C1EF905E900276F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99953C126E6F3303CC28E25 /* Pods-GunpangAndByelsatangTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 286488CS76;
+				INFOPLIST_FILE = GunpangAndByelsatangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GunpangAndByelsatang.app/GunpangAndByelsatang";
+			};
+			name = Debug;
+		};
+		45CAA23D1EF905E900276F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DFB1283FE41584B282E65B /* Pods-GunpangAndByelsatangTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 286488CS76;
+				INFOPLIST_FILE = GunpangAndByelsatangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GunpangAndByelsatang.app/GunpangAndByelsatang";
+			};
+			name = Release;
+		};
+		45CAA23F1EF905E900276F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BB36F3E29627AB45D3376F /* Pods-GunpangAndByelsatangUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 286488CS76;
+				INFOPLIST_FILE = GunpangAndByelsatangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GunpangAndByelsatang;
+			};
+			name = Debug;
+		};
+		45CAA2401EF905E900276F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF814C3425C3992CD14BECAB /* Pods-GunpangAndByelsatangUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 286488CS76;
+				INFOPLIST_FILE = GunpangAndByelsatangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GunpangAndByelsatang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CAA20B1EF905E800276F5E /* Build configuration list for PBXProject "GunpangAndByelsatang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CAA2361EF905E900276F5E /* Debug */,
+				45CAA2371EF905E900276F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CAA2381EF905E900276F5E /* Build configuration list for PBXNativeTarget "GunpangAndByelsatang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CAA2391EF905E900276F5E /* Debug */,
+				45CAA23A1EF905E900276F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CAA23B1EF905E900276F5E /* Build configuration list for PBXNativeTarget "GunpangAndByelsatangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CAA23C1EF905E900276F5E /* Debug */,
+				45CAA23D1EF905E900276F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CAA23E1EF905E900276F5E /* Build configuration list for PBXNativeTarget "GunpangAndByelsatangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CAA23F1EF905E900276F5E /* Debug */,
+				45CAA2401EF905E900276F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CAA2081EF905E800276F5E /* Project object */;
+}
