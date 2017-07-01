@@ -10,6 +10,7 @@
 		251670A940B227B6558D371F /* Pods_GunpangAndByelsatangTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C90E61ED352FF5DD8B220A /* Pods_GunpangAndByelsatangTests.framework */; };
 		4584129D1F07FA770031F12A /* CommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584129C1F07FA770031F12A /* CommonColor.swift */; };
 		458412A81F0805B30031F12A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412A71F0805B30031F12A /* LoginViewController.swift */; };
+		458412AA1F08072D0031F12A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412A91F08072D0031F12A /* AuthManager.swift */; };
 		45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2131EF905E800276F5E /* AppDelegate.swift */; };
 		45CAA2161EF905E800276F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2151EF905E800276F5E /* ViewController.swift */; };
 		45CAA2191EF905E800276F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA2171EF905E800276F5E /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		25C90E61ED352FF5DD8B220A /* Pods_GunpangAndByelsatangTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GunpangAndByelsatangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4584129C1F07FA770031F12A /* CommonColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
 		458412A71F0805B30031F12A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		458412A91F08072D0031F12A /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		45CAA2101EF905E800276F5E /* GunpangAndByelsatang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunpangAndByelsatang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CAA2131EF905E800276F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CAA2151EF905E800276F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		4584129B1F07F80D0031F12A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				458412A91F08072D0031F12A /* AuthManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -535,6 +538,7 @@
 				45CAA2161EF905E800276F5E /* ViewController.swift in Sources */,
 				4584129D1F07FA770031F12A /* CommonColor.swift in Sources */,
 				45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */,
+				458412AA1F08072D0031F12A /* AuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

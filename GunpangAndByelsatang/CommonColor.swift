@@ -15,10 +15,11 @@ import Foundation
  */
 class CommonColor {
     
-    static let shared = CommonColor()
+    static let shared = CommonColor(with: nil)
     
     public var main: UIColor {
         get {
+            
             return self.main
         }
         
@@ -38,10 +39,15 @@ class CommonColor {
     }
     
     init(
-        with main:UIColor = UIColor.black,
+        with main:UIColor?,
         and sub: UIColor = UIColor.white) {
         
-        self.main = main
+        if let main = main {
+            self.main = main
+        } else {
+            // default color (hex #b2ff59)
+            self.main = UIColor(red: 178/255, green: 255/255, blue: 89/255, alpha: 1)
+        }
         self.sub = sub
     }
 }
