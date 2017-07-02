@@ -41,7 +41,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="페이스북으로 로그인하기"/>
                                 <connections>
-                                    <action selector="didPressFacebookBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9R-Gg-72i"/>
+                                    <action selector="didPressFacebookBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="giM-6u-rqh"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YxX-y6-qdJ" customClass="GIDSignInButton">
@@ -88,9 +88,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="facebookLoginBtn" destination="6J4-iN-fT3" id="JZ4-bf-Xlp"/>
+                        <outlet property="facebookLoginBtn" destination="6J4-iN-fT3" id="3wo-pS-0sa"/>
                         <outlet property="googleSigninBtn" destination="YxX-y6-qdJ" id="Y3Q-Pz-3iC"/>
-                        <outlet property="kakaoLoginBtn" destination="8cl-NH-iW8" id="xIP-tc-Lyf"/>
+                        <outlet property="kakaoLoginBtn" destination="8cl-NH-iW8" id="L9R-Jd-IWq"/>
                     </connections>
                 </viewController>
             </objects>

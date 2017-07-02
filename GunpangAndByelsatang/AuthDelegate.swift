@@ -9,13 +9,16 @@
 import Foundation
 import Firebase
 import GoogleSignIn
+import FBSDKCoreKit
 
 extension AppDelegate: GIDSignInDelegate, GIDSignInUIDelegate {
     
     @available(iOS 9.0, *)
     func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
         -> Bool {
-            return GIDSignIn
+            let handled = FBSDKApplicationDelegate.sharedInstance().application(application, open: url, options: options)
+            
+            return handled || GIDSignIn
                 .sharedInstance().handle(url,
                     sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
                     annotation: [:])

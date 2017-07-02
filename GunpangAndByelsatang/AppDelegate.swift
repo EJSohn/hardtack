@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import GoogleSignIn
 import SwiftyBeaver
+import FBSDKCoreKit
 
 // Singletone log variable
 let log = SwiftyBeaver.self
@@ -23,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Use Firebase library to configure APIs
         FirebaseApp.configure()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
