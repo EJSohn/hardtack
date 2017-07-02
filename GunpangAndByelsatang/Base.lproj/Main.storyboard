@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cl-NH-iW8">
-                                <rect key="frame" x="46" y="357" width="283" height="40"/>
+                                <rect key="frame" x="46" y="374" width="283" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Ym8-ec-1QI"/>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6J4-iN-fT3">
-                                <rect key="frame" x="46" y="422" width="283" height="40"/>
+                                <rect key="frame" x="46" y="439" width="283" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="페이스북으로 로그인하기"/>
@@ -44,23 +44,6 @@
                                     <action selector="didPressFacebookBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="giM-6u-rqh"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YxX-y6-qdJ" customClass="GIDSignInButton">
-                                <rect key="frame" x="46" y="487" width="283" height="40"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구글로 로그인하기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nr6-kR-gCi">
-                                        <rect key="frame" x="80.5" y="9.5" width="122.5" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="highlightedColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="5ov-dq-Tdl"/>
-                                    <constraint firstItem="nr6-kR-gCi" firstAttribute="centerY" secondItem="YxX-y6-qdJ" secondAttribute="centerY" id="6OA-hx-cZs"/>
-                                    <constraint firstItem="nr6-kR-gCi" firstAttribute="centerX" secondItem="YxX-y6-qdJ" secondAttribute="centerX" id="qi6-UE-3yd"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMi-9h-kHA">
                                 <rect key="frame" x="164" y="222" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
@@ -68,28 +51,37 @@
                                     <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pCQ-R9-vtd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfD-Bu-Efq">
+                                <rect key="frame" x="46" y="504" width="283" height="40"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="구글로 로그인하기"/>
+                                <connections>
+                                    <action selector="didPressGoogleBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOC-gI-0ch"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="TfD-Bu-Efq" firstAttribute="leading" secondItem="8cl-NH-iW8" secondAttribute="leading" id="0sA-LX-exG"/>
                             <constraint firstItem="6J4-iN-fT3" firstAttribute="leading" secondItem="8cl-NH-iW8" secondAttribute="leading" id="2vf-s8-Fsd"/>
                             <constraint firstItem="xMi-9h-kHA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4OQ-hB-HQg"/>
                             <constraint firstItem="xMi-9h-kHA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="202" id="4ms-oZ-gir"/>
-                            <constraint firstItem="YxX-y6-qdJ" firstAttribute="leading" secondItem="8cl-NH-iW8" secondAttribute="leading" id="5dc-vO-PjB"/>
                             <constraint firstItem="6J4-iN-fT3" firstAttribute="top" secondItem="8cl-NH-iW8" secondAttribute="bottom" constant="25" id="7xc-aJ-AxG"/>
                             <constraint firstItem="8cl-NH-iW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8hU-KH-AP3"/>
-                            <constraint firstItem="YxX-y6-qdJ" firstAttribute="trailing" secondItem="8cl-NH-iW8" secondAttribute="trailing" id="EJi-XO-hBK"/>
                             <constraint firstItem="6J4-iN-fT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OfL-XN-trp"/>
+                            <constraint firstItem="TfD-Bu-Efq" firstAttribute="trailing" secondItem="8cl-NH-iW8" secondAttribute="trailing" id="RcI-7y-aVb"/>
                             <constraint firstItem="6J4-iN-fT3" firstAttribute="trailing" secondItem="8cl-NH-iW8" secondAttribute="trailing" id="Xis-xh-GpW"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YxX-y6-qdJ" secondAttribute="bottom" constant="140" id="Zdl-1j-PQl"/>
-                            <constraint firstItem="YxX-y6-qdJ" firstAttribute="top" secondItem="6J4-iN-fT3" secondAttribute="bottom" constant="25" id="cAZ-sd-o6j"/>
                             <constraint firstItem="6J4-iN-fT3" firstAttribute="height" secondItem="8cl-NH-iW8" secondAttribute="height" id="e4d-XN-k5E"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8cl-NH-iW8" secondAttribute="trailing" constant="30" id="qna-qJ-khz"/>
                             <constraint firstItem="8cl-NH-iW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="s3f-3N-ejN"/>
+                            <constraint firstItem="TfD-Bu-Efq" firstAttribute="height" secondItem="8cl-NH-iW8" secondAttribute="height" id="uvD-lp-08Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TfD-Bu-Efq" secondAttribute="bottom" constant="123" id="zIg-Bo-YuS"/>
+                            <constraint firstItem="TfD-Bu-Efq" firstAttribute="top" secondItem="6J4-iN-fT3" secondAttribute="bottom" constant="25" id="zjz-Kg-Ryp"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="facebookLoginBtn" destination="6J4-iN-fT3" id="3wo-pS-0sa"/>
-                        <outlet property="googleSigninBtn" destination="YxX-y6-qdJ" id="Y3Q-Pz-3iC"/>
+                        <outlet property="googleLoginBtn" destination="TfD-Bu-Efq" id="DXo-bd-6Hb"/>
                         <outlet property="kakaoLoginBtn" destination="8cl-NH-iW8" id="L9R-Jd-IWq"/>
                     </connections>
                 </viewController>

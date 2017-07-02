@@ -9,8 +9,6 @@
 import UIKit
 import GoogleSignIn
 import Firebase
-import FacebookCore
-import FacebookLogin
 import FBSDKLoginKit
 import FBSDKCoreKit
 
@@ -18,16 +16,55 @@ import FBSDKCoreKit
  Initial login view controller.
  */
 
-class LoginViewController: UIViewController,  GIDSignInUIDelegate {
+class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
     
     @IBOutlet weak var kakaoLoginBtn: UIButton!
     @IBOutlet weak var facebookLoginBtn: UIButton!
-    @IBOutlet weak var googleSigninBtn: GIDSignInButton!
+    @IBOutlet weak var googleLoginBtn: UIButton!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        GIDSignIn.sharedInstance().delegate = self
         GIDSignIn.sharedInstance().uiDelegate = self
+    }
+    
+    func sign(inWillDispatch signIn: GIDSignIn!, error: Error!) {
+        
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let error = error {
+            log.error(error)
+            return
+        }
+        
+        guard let authentication = user.authentication else { return }
+        let credential = GoogleAuthProvider
+            .credential(
+                withIDToken: authentication.idToken,
+                accessToken: authentication.accessToken)
+        
+        log.info("user trying to signed in with google account:")
+        log.info(credential)
+        
+        Auth.auth().signIn(with: credential){ (user, error) in
+            if let error = error {
+                log.error("error; \(error)")
+                return
+            }
+            
+            log.info("firebase signin with google success.")
+        }
+    }
+    
+    func sign(_ signIn: GIDSignIn!, present viewController: UIViewController!) {
+        self.present(viewController, animated: true, completion: nil)
+    }
+    
+    func sign(_ signIn: GIDSignIn!, dismiss viewController: UIViewController!) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func didPressFacebookBtn(_ sender: UIButton) {
@@ -64,6 +101,11 @@ class LoginViewController: UIViewController,  GIDSignInUIDelegate {
     }
     
     @IBAction func didPressKakaoBtn(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func didPressGoogleBtn(_ sender: UIButton) {
+        GIDSignIn.sharedInstance().signIn()
     }
 
     @IBAction func test(_ sender: UIButton) {
