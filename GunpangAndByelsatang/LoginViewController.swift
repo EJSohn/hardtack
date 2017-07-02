@@ -112,7 +112,8 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
                     completionHandler: {(profile, error) -> Void in
                         if let user: KOUser = profile as? KOUser {
                             Auth.auth().createUser(withEmail: user.email!, password: user.email!){ (user, error) in
-                                if let error = error {
+                                if let error = error
+                                {
                                     log.error(error)
                                     return
                                 }
