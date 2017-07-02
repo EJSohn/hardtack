@@ -54,6 +54,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfD-Bu-Efq">
                                 <rect key="frame" x="46" y="504" width="283" height="40"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="구글로 로그인하기"/>
                                 <connections>
                                     <action selector="didPressGoogleBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOC-gI-0ch"/>
