@@ -12,6 +12,9 @@
 		458412A81F0805B30031F12A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412A71F0805B30031F12A /* LoginViewController.swift */; };
 		458412AA1F08072D0031F12A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412A91F08072D0031F12A /* AuthManager.swift */; };
 		458412AE1F080ACA0031F12A /* AuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458412AD1F080ACA0031F12A /* AuthDelegate.swift */; };
+		458412B21F08B3D00031F12A /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458412AF1F08B3D00031F12A /* KakaoCommon.framework */; };
+		458412B31F08B3D00031F12A /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458412B01F08B3D00031F12A /* KakaoOpenSDK.framework */; };
+		458412B41F08B3D00031F12A /* KakaoS2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458412B11F08B3D00031F12A /* KakaoS2.framework */; };
 		45CAA2141EF905E800276F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2131EF905E800276F5E /* AppDelegate.swift */; };
 		45CAA2161EF905E800276F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAA2151EF905E800276F5E /* ViewController.swift */; };
 		45CAA2191EF905E800276F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAA2171EF905E800276F5E /* Main.storyboard */; };
@@ -48,6 +51,10 @@
 		458412A71F0805B30031F12A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		458412A91F08072D0031F12A /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		458412AD1F080ACA0031F12A /* AuthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthDelegate.swift; sourceTree = "<group>"; };
+		458412AF1F08B3D00031F12A /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoCommon.framework; path = "kakao-ios-sdk/KakaoCommon.framework"; sourceTree = "<group>"; };
+		458412B01F08B3D00031F12A /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = "kakao-ios-sdk/KakaoOpenSDK.framework"; sourceTree = "<group>"; };
+		458412B11F08B3D00031F12A /* KakaoS2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoS2.framework; path = "kakao-ios-sdk/KakaoS2.framework"; sourceTree = "<group>"; };
+		458412B61F08B5E50031F12A /* GunpangAndByelsatang-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GunpangAndByelsatang-Bridging-Header.h"; sourceTree = "<group>"; };
 		45CAA2101EF905E800276F5E /* GunpangAndByelsatang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunpangAndByelsatang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CAA2131EF905E800276F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CAA2151EF905E800276F5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +84,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B429F9CC04C88D4A5D5DE328 /* Pods_GunpangAndByelsatang.framework in Frameworks */,
+				458412B41F08B3D00031F12A /* KakaoS2.framework in Frameworks */,
+				458412B21F08B3D00031F12A /* KakaoCommon.framework in Frameworks */,
+				458412B31F08B3D00031F12A /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +233,7 @@
 				45CAA21A1EF905E800276F5E /* Assets.xcassets */,
 				45CAA21C1EF905E800276F5E /* LaunchScreen.storyboard */,
 				45CAA21F1EF905E800276F5E /* Info.plist */,
+				458412B61F08B5E50031F12A /* GunpangAndByelsatang-Bridging-Header.h */,
 			);
 			path = GunpangAndByelsatang;
 			sourceTree = "<group>";
@@ -248,6 +259,9 @@
 		87536062FAD9DD5CDB8454A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				458412AF1F08B3D00031F12A /* KakaoCommon.framework */,
+				458412B01F08B3D00031F12A /* KakaoOpenSDK.framework */,
+				458412B11F08B3D00031F12A /* KakaoS2.framework */,
 				51DD68D7991B7E69D6D75F4A /* Pods_GunpangAndByelsatang.framework */,
 				25C90E61ED352FF5DD8B220A /* Pods_GunpangAndByelsatangTests.framework */,
 				A8DA6C786CA03AC33E2BC9DE /* Pods_GunpangAndByelsatangUITests.framework */,
@@ -346,6 +360,7 @@
 					45CAA20F1EF905E800276F5E = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5NNEWJM58C;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					45CAA2231EF905E800276F5E = {
@@ -711,12 +726,19 @@
 			baseConfigurationReference = 65276D0AE0E3A6D3B25DDFB0 /* Pods-GunpangAndByelsatang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5NNEWJM58C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kakao-ios-sdk",
+				);
 				INFOPLIST_FILE = GunpangAndByelsatang/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GunpangAndByelsatang/GunpangAndByelsatang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -726,12 +748,18 @@
 			baseConfigurationReference = 4ECF8388A61383FDBBD010A3 /* Pods-GunpangAndByelsatang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5NNEWJM58C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kakao-ios-sdk",
+				);
 				INFOPLIST_FILE = GunpangAndByelsatang/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ejsohn.GunpangAndByelsatang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GunpangAndByelsatang/GunpangAndByelsatang-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

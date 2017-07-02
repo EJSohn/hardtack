@@ -85,12 +85,7 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
             // Perform login by calling Firebase APIs
             Auth.auth().signIn(with: credential, completion: { (user, error) in
                 if let error = error {
-                    print("Login error: \(error.localizedDescription)")
-                    let alertController = UIAlertController(title: "Login Error", message: error.localizedDescription, preferredStyle: .alert)
-                    let okayAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-                    alertController.addAction(okayAction)
-                    self.present(alertController, animated: true, completion: nil)
-                    
+                    log.error("Login error: \(error.localizedDescription)")
                     return
                 }
                 
@@ -101,7 +96,33 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
     }
     
     @IBAction func didPressKakaoBtn(_ sender: UIButton) {
-        
+        let session: KOSession = KOSession.shared();
+        if session.isOpen() {
+            session.close()
+        }
+        session.presentingViewController = self
+        session.open(completionHandler: { (error) -> Void in
+            if let error = error {
+                log.error(error)
+            }else if session.isOpen() == true{
+                log.info("kakao login success.")
+                log.info("with token: \(session.accessToken)")
+                
+                KOSessionTask.meTask(
+                    completionHandler: {(profile, error) -> Void in
+                        if let user: KOUser = profile as? KOUser {
+                            Auth.auth().createUser(withEmail: user.email!, password: user.email!){ (user, error) in
+                                if let error = error {
+                                    log.error(error)
+                                    return
+                                }
+                                
+                                log.info("firebase login with kakao success.")
+                            }
+                        }
+                })
+            }
+        })
     }
     
     @IBAction func didPressGoogleBtn(_ sender: UIButton) {

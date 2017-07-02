@@ -2,16 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>FacebookAppID</key>
-	<string>304127740052153</string>
-	<key>FacebookDisplayName</key>
-	<string>건빵과 별사탕</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>fbapi</string>
-		<string>fbshareextension</string>
-		<string>fbauth2</string>
-	</array>
+	<key>KAKAO_APP_KEY</key>
+	<string>c4f78e674465dab8ba78e2fda086dc4d</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -37,9 +29,34 @@
 				<string>com.googleusercontent.apps.571309374075-5uhggahlls388qo6gp2dbhg4rjecnstp</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>kakaoc4f78e674465dab8ba78e2fda086dc4d</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>304127740052153</string>
+	<key>FacebookDisplayName</key>
+	<string>건빵과 별사탕</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>storylink</string>
+		<string>kakaostory-2.9.0</string>
+		<string>kakaolink</string>
+		<string>kakaotalk-4.5.0</string>
+		<string>storykompassauth</string>
+		<string>kakaokompassauth</string>
+		<string>kakaoc4f78e674465dab8ba78e2fda086dc4d</string>
+		<string>fbapi</string>
+		<string>fbshareextension</string>
+		<string>fbauth2</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
