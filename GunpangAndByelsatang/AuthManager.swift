@@ -11,6 +11,3 @@ import Firebase
 import GoogleSignIn
 
 
-class AuthManager {
-    
-}

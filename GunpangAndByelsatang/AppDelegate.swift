@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         log.addDestination(console)
         log.addDestination(file)
-        // Logging configuration end 
+        // Logging configuration end
         
         return true
     }
